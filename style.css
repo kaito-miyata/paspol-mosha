@@ -18,20 +18,19 @@ body {
   background-size: cover;
   height: 600px;
   /* 曲線化 */
-  /* border-bottom-right-radius: 2000px 300px;
+  min-height: 400px;
+  border-bottom-right-radius: 2000px 300px;
   border-bottom-left-radius: 2000px 300px;
   margin-left: -200px;
   margin-right: -200px;
   padding-left: 200px;
-  padding-right: 200px; */
-
+  padding-right: 200px;
 }
 
 .header_box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 40px; */
   position: relative;
 }
 
@@ -44,7 +43,7 @@ body {
   display: flex;
 }
 .header_nav_part{
-  margin-left: 40px;
+  margin-left: 20px;
   list-style: none;
 }
 .header_nav_part a {
