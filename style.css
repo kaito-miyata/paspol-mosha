@@ -10,8 +10,7 @@
 
 
 
-header {
-  background-image: url(img/main_visual1.jpg);
+.bg-slider {
   background-size: cover;
   height: 600px;
   /* 曲線化 */
@@ -93,11 +92,11 @@ header {
 
 .news {
   background-color: #F6F6F6;
-  
+  padding-bottom: 50px;
 }
 
 .news_title {
-  margin: 0;
+  font-weight: bold;
 }
 
 .news_articles_part {
