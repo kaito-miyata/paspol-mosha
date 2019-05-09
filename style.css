@@ -1,4 +1,8 @@
-.container {
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  }
+
+  .container {
   padding: 0 100px
 }
 .subtitle {
@@ -68,6 +72,10 @@
   padding: 100px 0;
 }
 
+.sitelogo {
+  font-size: 30px;
+}
+
 /* ./catchcopy */
 
 
@@ -82,8 +90,8 @@
 
 
 .product_articles_part {
-  width: 250px;
-  height: 400px;
+  width: 30%;
+  height: auto;
 }
 .product_articles_part img {
   width: 100%;
@@ -146,6 +154,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 100px;
 
 }
 .footer_logo p {
