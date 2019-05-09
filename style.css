@@ -1,0 +1,92 @@
+header {
+  background-image: url(img/main_visual1.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+.toplogo {
+  width: 300px;
+}
+.header_nav {
+  display: flex;
+}
+.header_nav_part {
+  margin-left: 40px;
+  list-style: none;
+}
+.header_nav_part a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.catchcopy {
+  background-color: #F6F6F6;
+
+}
+.catchcopy_container {
+  max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.catchcopy_container p {
+  padding-bottom: 30px;
+}
+.catchcopy_container p:first-child {
+  padding: 100px 0;
+}
+
+.container {
+  padding: 0 40px
+}
+
+
+.product_articles {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.product_articles_part {
+  width: 250px;
+  height: 400px;
+}
+.product_articles_part img {
+  width: 100%;
+}
+
+
+.news_title {
+  margin: 0;
+}
+
+.news_articles_part {
+  height: 200px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  /* padding: 50px 0; */
+  margin-bottom: 100px;
+}
+.news_articles_part_text {
+  padding: 0 40px;
+}
+
+
+.news_articles_part img{
+  width: 300px;
+}
