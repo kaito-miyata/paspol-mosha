@@ -1,7 +1,10 @@
 .container {
-  padding: 0 40px
+  padding: 0 100px
 }
-
+.subtitle {
+  padding: 100px 0;
+  font-size: 30px;
+}
 
 /* ./共通 */
 
@@ -9,9 +12,15 @@
 
 header {
   background-image: url(img/main_visual1.jpg);
-  background-position: bottom;
   background-size: cover;
   height: 600px;
+  /* 曲線化 */
+  border-bottom-right-radius: 2000px 300px;
+  border-bottom-left-radius: 2000px 300px;
+  margin-left: -200px;
+  margin-right: -200px;
+  padding-left: 200px;
+  padding-right: 200px;
 
 }
 
@@ -19,6 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
   position: relative;
 }
 
@@ -68,6 +78,7 @@ header {
   display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -80,7 +91,10 @@ header {
 }
 /* ./product */
 
-
+.news {
+  background-color: #F6F6F6;
+  
+}
 
 .news_title {
   margin: 0;
@@ -124,4 +138,17 @@ header {
   list-style: none;
   color: #fff;
   text-decoration: none;
+}
+
+.footer_logo {
+  background-color: #656C6E;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer_logo p {
+  color: #fff;
 }
