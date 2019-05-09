@@ -2,7 +2,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
   }
 
-  .container {
+.container {
   padding: 0 100px
 }
 .subtitle {
@@ -11,22 +11,23 @@ body {
 }
 
 /* ./共通 */
-
-
-
-.bg-slider {
-  background-size: cover;
-  height: 600px;
+header {
+  overflow: hidden;
   /* 曲線化 */
-  min-height: 400px;
+  /* min-height: 400px;
   border-bottom-right-radius: 2000px 300px;
   border-bottom-left-radius: 2000px 300px;
   margin-left: -200px;
   margin-right: -200px;
   padding-left: 200px;
-  padding-right: 200px;
+  padding-right: 200px; */
 }
 
+
+.bg-slider {
+  background-size: cover;
+  height: 600px;
+}
 .header_box {
   display: flex;
   justify-content: space-between;
@@ -170,9 +171,14 @@ body {
   }
   .header_box {
    flex-direction: column;
+   line-height: 600px;
   }
   .header_nav {
     flex-direction: column;
+    display: none;
+  }
+  .product_articles_part {
+    width: 50%;
   }
 
   .news_articles_part{
@@ -185,5 +191,15 @@ body {
   .news_articles_part img {
     width: 50%;
     margin: 0 auto;
+  }
+  .footer_nav {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer_nav_part {
+    padding: 20px 0;
+    margin-left: 0;
+    border-bottom: 1px solid #fff;
   }
 }
