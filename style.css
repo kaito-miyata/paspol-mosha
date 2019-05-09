@@ -180,6 +180,9 @@ body {
     flex-direction: column;
     height: auto;
   }
+  .news_articles_part_text time,p{
+    display: none;
+  }
   .news_articles_part img {
     width: 50%;
     margin: 0 auto;
